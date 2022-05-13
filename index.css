@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  font-weight: 400;
+  line-height: 1.4;
+  color: white;
+  font-family: 'Fredoka', sans-serif;
+  background-image:
+    linear-gradient( 
+115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.survey-background {
+  position: relative;
+  width: 60vw;
+  height: auto;
+  display: block;
+  margin:  30px auto;
+  border-radius: 10px;
+  background-color: rgba(27, 27, 50, 0.8);
+}
+
+.survey-content {
+  padding: 30px 0 40px 5.2vw;
+}
+
+#name-label, #email-label, #number-label {
+  width: 90%;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+}
+
+#improve, #recommend {
+  margin-right: 7px;
+}
+
+#suggestions {
+  height: 100px;
+  width: 90%;
+  border-radius: 5px;
+}
+
+#submit {
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(55, 175, 101);
+}
